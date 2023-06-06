@@ -12,7 +12,7 @@ const ListadoPacientes = ({pacientes}) => {
                     <h2 className="font-black text-3xl text-center">Listado Pacientes</h2>
 
                     <p  className="text-lg mt-5 text-center mb-6">
-                        Administra tus {'ghg'}
+                        Administra tus {''}
                         <span className="text-indigo-600 font-bold">Pacientes y Citas</span>
                     </p>
 
