@@ -27,6 +27,17 @@
                             <span className="font-normal normal-case">{sintomas}</span>
                     </p>
 
+                    <div className="flex justify-between mt-5 flex-wrap">
+                        <button type="button"
+                                className="py-2 px-10 my-1 bg-indigo-600 hover:bg-indigo-700 rounded-md
+                                text-white font-bold"
+                        >Editar</button>
+
+                        <button type="button"
+                                className="py-2 px-10 my-1 bg-red-600 hover:bg-red-700 rounded-md
+                                text-white font-bold"
+                        >Eliminar</button>
+                    </div>
             </div>
     )
     }
