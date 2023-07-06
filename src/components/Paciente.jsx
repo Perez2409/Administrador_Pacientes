@@ -1,5 +1,5 @@
-    const Paciente = ({paciente}) => {
-        const{mascota, propietario, email, celular, fecha, sintomas} = paciente;
+    const Paciente = ({paciente,setPaciente}) => {
+    const{mascota, propietario, email, celular, fecha, sintomas} = paciente;
 
     return (
             <div className="mt-0 m-3 bg-white shadow-md py-5 px-5 rounded-lg">
@@ -31,6 +31,8 @@
                         <button type="button"
                                 className="py-2 px-10 my-1 bg-indigo-600 hover:bg-indigo-700 rounded-md
                                 text-white font-bold"
+                                onClick={()=>setPaciente(paciente)}
+                                
                         >Editar</button>
 
                         <button type="button"
