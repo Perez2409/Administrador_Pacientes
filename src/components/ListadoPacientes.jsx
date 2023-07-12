@@ -1,7 +1,6 @@
 import Paciente from "./Paciente";
 
-const ListadoPacientes = ({pacientes}) => {
-
+const ListadoPacientes = ({pacientes, setPaciente, eliminarPaciente}) => {
 
     return (
         <div className="md:w-1/2 lg:w-3/5">
@@ -19,14 +18,17 @@ const ListadoPacientes = ({pacientes}) => {
                     {/*Bloque donde aparecen la informacion de los pacientes */}
                     <div className="md:h-[92vh] overflow-y-scroll">{/*Revisar como ajustar para que quede al tamaño del formulario */}
 
-                        {pacientes.map( (paciente) => (
+                        {pacientes.map( paciente => (
                             <Paciente
                             key={paciente.id}
                             paciente ={paciente}
+                            setPaciente ={setPaciente}
+                            eliminarPaciente = {eliminarPaciente}
                             />
                         ))}
 
                     </div>
+                    
                 </>)
                 ://Respuesta si No hay
                 (<>
