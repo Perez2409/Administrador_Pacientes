@@ -29,7 +29,7 @@
                             <span className="font-normal normal-case">{celular}</span>
                     </p>
 
-                    <p className="font-bold mb-3 text-gray-700 uppercase">Fecha De Salida: {''}
+                    <p className="font-bold mb-3 text-gray-700 uppercase">Fecha De Ingreso: {''}
                             <span className="font-normal normal-case">{fecha}</span>
                     </p>
 
