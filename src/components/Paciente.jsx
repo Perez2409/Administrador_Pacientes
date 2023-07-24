@@ -7,6 +7,7 @@
 
         if (respuesta) {
                 eliminarPaciente(id)
+                console.log("object")
         }
     }
 

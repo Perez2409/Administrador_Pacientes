@@ -16,7 +16,8 @@ const ListadoPacientes = ({pacientes, setPaciente, eliminarPaciente}) => {
                     </p>
 
                     {/*Bloque donde aparecen la informacion de los pacientes */}
-                    <div className="md:h-[92vh] overflow-y-scroll">{/*Revisar como ajustar para que quede al tamaño del formulario */}
+                    <div className="md:h-[92vh] overflow-y-scroll">{/*Revisar como ajustar para que quede al tamaño del formulario,
+                                                                    ya se soluciono se pone un [] y dentro el valor que se requiera */}
 
                         {pacientes.map( paciente => (
                             <Paciente
